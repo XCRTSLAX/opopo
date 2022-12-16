@@ -78,7 +78,6 @@ class kr(object):
 •> Sᴇɴᴅ Aɴʏ Fɪʟᴇ Aɴᴅ Cʟɪᴄᴋ Rᴇɴᴀᴍᴇ Oᴘᴛɪᴏɴ Aɴᴅ Tʏᴘᴇ Nᴇᴡ Fɪʟᴇ Nᴀᴍᴇ Aɴᴅ 
  Sᴇɴᴅ Sᴇʟᴇᴄᴛ [ Dᴏᴄᴜᴍᴇɴᴛ, Vɪᴅᴇᴏ, Aᴜᴅɪᴏ ]👈 Cʜᴏɪᴄᴇ Tʜɪs.
 
-®️ Mᴀᴅᴇ Wɪᴛʜ ❣️ @KR_Botz & @BGM_LinkzZ 
 ⚜️ Bᴏᴛ Aɴʏ Issᴜᴇs Cᴏɴᴛᴀᴄᴛ Mᴇ
 𝗔𝗱𝗺𝗶𝗻 : @KR_Admin_Bot
 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 : @KR_Join </b> 
@@ -124,21 +123,21 @@ Pʟᴇᴀsᴇ!!!! Dᴏɴ'ᴛ Dᴇᴍᴀɴᴅs Oᴛᴛ Bᴏᴛs Oʀ Pʀᴇᴍɪ�
 	Daily  Upload limit 2GB
 	Price 0
 	
-	**VIP 1 ** 
+	**Silver 🥈** 
 	Daily  Upload  limit 10GB
-	Price Rs 30  🇮🇳/🌎 0.34$  per Month
+	Price Rs 29  🇮🇳/🌎 0.34$  per Month
 	
-	**VIP 2 ** 
+	**Gold 🪙** 
 	Daily  Upload  limit 20GB
-	Price Rs 50  🇮🇳/🌎 0.67$  per Month
+	Price Rs 49  🇮🇳/🌎 0.67$  per Month
 
-	**VIP 3 **
+	**Platinum 🏆**
 	Daily Upload limit 50GB
-	Price Rs 80  🇮🇳/🌎 0.97$  per Month
+	Price Rs 79  🇮🇳/🌎 0.99$  per Month
 	
-	**VIP 4 **
+	**Diamond 💎**
 	Daily Upload limit 100GB
-	Price Rs 150  🇮🇳/🌎 1.81$  per Month
+	Price Rs 159  🇮🇳/🌎 1.99$  per Month
 	
 	
 	Pay Using Upi I'd ```tamildub@ybl```
