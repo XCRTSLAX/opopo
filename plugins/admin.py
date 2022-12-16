@@ -22,7 +22,9 @@ async def warn(c, m):
 async def buypremium(bot, message):
 	await message.reply_text("Select Plan.........",quote=True,reply_markup=InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("VIP 1",callback_data = "vip1"), 
-        			InlineKeyboardButton("VIP 2",callback_data = "vip2") ]]))
+        			InlineKeyboardButton("VIP 2",callback_data = "vip2") ],[
+        			InlineKeyboardButton("VIP 3",callback_data = "vip3"), 
+        			InlineKeyboardButton("VIP 4",callback_data = "vip4")]]))
         			
 
 @Client.on_callback_query(filters.regex('vip1'))
@@ -46,3 +48,14 @@ async def vip2(bot,update):
 	addpre(int(user_id))
 	await update.message.edit("Added successfully To Premium Upload limit 50 GB")
 	await bot.send_message(user_id,"Hey Ur Upgraded To VIP 2 check your plan here /myplan")
+
+@Client.on_callback_query(filters.regex('vip3'))
+async def vip2(bot,update):
+	id = update.message.reply_to_message.text.split("/addpremium")
+	user_id = id[1].replace(" ", "")
+	inlimit  = 107374182400
+	uploadlimit(int(user_id),107374182400)
+	usertype(int(user_id),"VIP3")
+	addpre(int(user_id))
+	await update.message.edit("Added successfully To Premium Upload limit 100 GB")
+	await bot.send_message(user_id,"Hey Ur Upgraded To VIP 3 check your plan here /myplan")
