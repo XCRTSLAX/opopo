@@ -1,6 +1,8 @@
 """lokaman"""
 from pyrogram.types import (InlineKeyboardButton, InlineKeyboardMarkup,ForceReply, CallbackQuery)
 from pyrogram import Client , filters
+from helper.txt import kr
+
 
 @Client.on_callback_query()
 async def cb_handler(client, query: CallbackQuery):
