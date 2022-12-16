@@ -141,3 +141,6 @@ Pʟᴇᴀsᴇ!!!! Dᴏɴ'ᴛ Dᴇᴍᴀɴᴅs Oᴛᴛ Bᴏᴛs Oʀ Pʀᴇᴍɪ�
 	
 	After Payment Send Screenshots Of 
         Payment To Admin"""
+
+    VIP_1_TXT = """ HII """
+
