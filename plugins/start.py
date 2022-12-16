@@ -21,7 +21,7 @@ import datetime
 from datetime import date as date_
 STRING = os.environ.get("STRING","BQDMOvAAtCL0AccvASgo8J9mPqZUsZn2_kdxMSoHDOMD0j4m1PyNPdMdHvg_frq1psssdtKbEnjNyK41nqV-QmyScKmSOmIomNuS87QkcqBOk4cZYhn5hSZxREAd6kBrc3Mmrqo7IvnVbkQBmHvyIWVmIhUV_HsVw81mM6vLCBYOhoaVw7AR4pdsX7n8ugaYsavw-H5NMwfCVjsi4TITG5tFsx2CngQn-f5CGEigeEIVhVBPB8u9eV9Sdc5w3IGhV9J6oD2ZQXeXou8rI1y9-p5LEQS3uthcgXernvRK0jm8liTTW-sm24djVh9GeJaUnlauqwldnI25opf6eWGNqk7-ThLV4AAAAABZsWSfAA")
 log_channel = int(os.environ.get("LOG_CHANNEL","-1001580040547"))
-token = os.environ.get('TOKEN','5377834462:AAHMIicrsgAhYS4_bKnp2tLHwg9U4eilRnE')
+token = os.environ.get('TOKEN','5377834462:AAFr_4q9Sw3RtGPoMtgkxy-w4A6TE8oN_0w')
 botid = token.split(':')[0]
 
 #Part of Day --------------------
