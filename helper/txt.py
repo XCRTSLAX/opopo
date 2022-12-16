@@ -137,7 +137,7 @@ Pʟᴇᴀsᴇ!!!! Dᴏɴ'ᴛ Dᴇᴍᴀɴᴅs Oᴛᴛ Bᴏᴛs Oʀ Pʀᴇᴍɪ�
 	Price Rs 150  🇮🇳/🌎 1.81$  per Month
 	
 	
-	Pay Using Upi I'd ```9480251952@paytm```
+	Pay Using Upi I'd ```tamildub@ybl```
 	
 	After Payment Send Screenshots Of 
         Payment To Admin"""
