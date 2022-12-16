@@ -33,10 +33,10 @@ async def vip1(bot,update):
 	user_id = id[1].replace(" ", "")
 	inlimit  = 10737418240
 	uploadlimit(int(user_id),10737418240)
-	usertype(int(user_id),"VIP1")
+	usertype(int(user_id),"Silver 🥈")
 	addpre(int(user_id))
 	await update.message.edit("Added successfully To Premium Upload limit 10 GB")
-	await bot.send_message(user_id,"Hey Ur Upgraded To VIP 1 check your plan here /myplan")
+	await bot.send_message(user_id,"Hey Ur Upgraded To Silver 🥈 check your plan here /myplan")
 
 @Client.on_callback_query(filters.regex('vip2'))
 async def vip2(bot,update):
@@ -44,18 +44,37 @@ async def vip2(bot,update):
 	user_id = id[1].replace(" ", "")
 	inlimit  = 53687091200
 	uploadlimit(int(user_id),53687091200)
-	usertype(int(user_id),"VIP2")
+	usertype(int(user_id),"Gold 🪙")
 	addpre(int(user_id))
 	await update.message.edit("Added successfully To Premium Upload limit 50 GB")
-	await bot.send_message(user_id,"Hey Ur Upgraded To VIP 2 check your plan here /myplan")
+	await bot.send_message(user_id,"Hey Ur Upgraded To Gold 🪙 check your plan here /myplan")
 
 @Client.on_callback_query(filters.regex('vip3'))
-async def vip2(bot,update):
+async def vip3(bot,update):
 	id = update.message.reply_to_message.text.split("/addpremium")
 	user_id = id[1].replace(" ", "")
 	inlimit  = 107374182400
 	uploadlimit(int(user_id),107374182400)
-	usertype(int(user_id),"VIP3")
+	usertype(int(user_id),"Platinum 🏆")
 	addpre(int(user_id))
 	await update.message.edit("Added successfully To Premium Upload limit 100 GB")
-	await bot.send_message(user_id,"Hey Ur Upgraded To VIP 3 check your plan here /myplan")
+	await bot.send_message(user_id,"Hey Ur Upgraded To Platinum 🏆 check your plan here /myplan")
+
+@Client.on_callback_query(filters.regex('vip4'))
+async def vip4(bot,update):
+	id = update.message.reply_to_message.text.split("/addpremium")
+	user_id = id[1].replace(" ", "")
+	inlimit  = 107374182400
+	uploadlimit(int(user_id),107374182400)
+	usertype(int(user_id),"Diamond 💎")
+	addpre(int(user_id))
+	await update.message.edit("Added successfully To Premium Upload limit 100 GB")
+	await bot.send_message(user_id,"Hey Ur Upgraded To Diamond 💎 check your plan here /myplan")
+
+
+
+
+
+
+
+
