@@ -142,5 +142,12 @@ Pʟᴇᴀsᴇ!!!! Dᴏɴ'ᴛ Dᴇᴍᴀɴᴅs Oᴛᴛ Bᴏᴛs Oʀ Pʀᴇᴍɪ�
 	After Payment Send Screenshots Of 
         Payment To Admin"""
 
-    VIP_1_TXT = """ HII """
+    VIP_1_TXT = """🏷 ᴘʟᴀɴ: ```Silver 🥈```
+
+⌾ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ: 10.0 GB
+⌾ ᴛɪᴍᴇ ɢᴀᴘ: 5 minutes
+⌾ 4ɢʙ sᴜᴘᴘᴏʀᴛ: True'''
+⌾ ᴘᴀʀᴀʟʟᴇʟ ᴘʀᴏᴄᴇss: 1
+
+💰 ᴘʀɪᴄᴇ 39₹ ᴘᴇʀ ᴍᴏɴᴛʜ"""
 
