@@ -6,8 +6,6 @@ from helper.txt import kr
 
 @Client.on_callback_query(filters.regex('upgrade'))
 async def upgrade(bot,update):
-    data = query.data 
-    if data == "upgrade":
         await query.message.edit_text(
 	    text=kr.PAID_TXT,
             reply_markup=InlineKeyboardMarkup([[ 
