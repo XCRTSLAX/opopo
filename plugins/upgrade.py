@@ -1,9 +1,12 @@
 """lokaman"""
-from pyrogram.types import (InlineKeyboardButton, InlineKeyboardMarkup,ForceReply)
+from pyrogram.types import (InlineKeyboardButton, InlineKeyboardMarkup,ForceReply, CallbackQuery)
 from pyrogram import Client , filters
 
-@Client.on_callback_query(filters.regex('upgrade'))
-async def upgrade(bot,update):
+@Client.on_callback_query()
+async def cb_handler(client, query: CallbackQuery):
+    data = query.data 
+    if data == "upgrade":
+        await query.message.edit_text(
 	text = """**Free Plan User**
 	Daily  Upload limit 2GB
 	Price 0
