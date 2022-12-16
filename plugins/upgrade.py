@@ -19,7 +19,7 @@ async def upgrade(bot,update):
 	
 
 @Client.on_message(filters.private & filters.command(["upgrade"]))
-async def upgradecm(bot,message):
+async def upgrade(bot,message):
 	text = """**Free Plan User**
 	Daily  Upload limit 2GB
 	Price 0
