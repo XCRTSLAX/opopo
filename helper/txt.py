@@ -126,13 +126,17 @@ Pʟᴇᴀsᴇ!!!! Dᴏɴ'ᴛ Dᴇᴍᴀɴᴅs Oᴛᴛ Bᴏᴛs Oʀ Pʀᴇᴍɪ�
 	
 	**VIP 1 ** 
 	Daily  Upload  limit 10GB
-	Price Rs 55  🇮🇳/🌎 0.67$  per Month
+	Price Rs 30  🇮🇳/🌎 0.34$  per Month
 	
-	**VIP 2 **
+	**VIP 2 ** 
+	Daily  Upload  limit 20GB
+	Price Rs 50  🇮🇳/🌎 0.67$  per Month
+
+	**VIP 3 **
 	Daily Upload limit 50GB
 	Price Rs 80  🇮🇳/🌎 0.97$  per Month
 	
-	**VIP3**
+	**VIP 4 **
 	Daily Upload limit 100GB
 	Price Rs 150  🇮🇳/🌎 1.81$  per Month
 	
