@@ -289,6 +289,21 @@ async def cb_handler(client, query: CallbackQuery):
                ]]
             )
         )
+
+    elif data == "upgrade":
+        await query.message.edit_text(
+	    text=kr.PAID_TXT,
+            reply_markup=InlineKeyboardMarkup( [[ 
+                InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/Mr_Tamil_KiD") 
+                ],[
+                InlineKeyboardButton("PayPal 🌎",url = "https://t.me/Mr_Tamil_KiD"),
+                InlineKeyboardButton("Paytm",url = "https://p.paytm.me/xCTH/1icxtwpo")
+                ],[
+                InlineKeyboardButton("Cancel",callback_data = "cancel")
+                ]]
+            )
+        ) 
+
     elif data == "close":
         await query.message.delete()
         try:
