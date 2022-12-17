@@ -1,15 +1,16 @@
-FROM anasty17/mltb:latest
+FROM python:3.9
 
-WORKDIR /usr/src/app
-RUN chmod 777 /usr/src/app
+WORKDIR /app
 
-COPY requirements.txt .
-RUN pip3 install --no-cache-dir -r requirements.txt
-RUN apt-get update && apt-get upgrade -y
-RUN apt -qq update --fix-missing && \
-    apt -qq install -y \
-    mediainfo
+COPY requirements.txt /app/
+
+RUN apt update && apt upgrade -y
+RUN apt install git python3-pip ffmpeg -y
 
 COPY . .
 
-CMD ["bash", "start.sh"]
+RUN pip3 install -r requirements.txt
+
+COPY . /app
+
+CMD python3 bot.py
