@@ -39,7 +39,10 @@ async def start(client,message):
 ⌾ ᴜsᴇʀ ɪᴅ :-  {message.from_user.id}
 ⌾ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ: {humanbytes(limit)}
 ⌾ ᴛᴏᴅᴀʏ ᴜsᴇᴅ :- {humanbytes(used)}
-⌾ ʀᴇᴍᴀɪɴ :- {humanbytes(remain)}"""
+⌾ ʀᴇᴍᴀɪɴ :- {humanbytes(remain)}
+
+📅 ᴠᴀʟɪᴅɪᴛʏ :- '''lifetime'''
+"""
 	else:
 	    normal_date = datetime.fromtimestamp(ends).strftime('%Y-%m-%d')
 	    text = f"""🏷 ᴘʟᴀɴ: {user}
@@ -49,7 +52,7 @@ async def start(client,message):
 ⌾ ᴛᴏᴅᴀʏ ᴜsᴇᴅ :- {humanbytes(used)}
 ⌾ ʀᴇᴍᴀɪɴ :- {humanbytes(remain)}
 
-📅ʏᴏᴜʀ ᴘʟᴀɴ ᴇɴᴅs ᴏɴ : {normal_date}"""
+📅 ᴠᴀʟɪᴅɪᴛʏ : {normal_date}""" 
 	    
 	if user == "Free":
 	    await message.reply(text,quote = True,reply_markup = InlineKeyboardMarkup([[       			InlineKeyboardButton("Upgrade 💰💳",callback_data = "upgrade"), InlineKeyboardButton("Cancel ✖️ ",callback_data = "cancel") ]]))
