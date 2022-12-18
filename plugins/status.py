@@ -19,7 +19,7 @@ from psutil import (
 from pyrogram import Client, enums, filters
 from pyrogram.errors import FloodWait, RPCError
 
-from ..config import Config
+from config import Config
 
 
 SIZE_UNITS = ["B", "KB", "MB", "GB", "TB", "PB"]
