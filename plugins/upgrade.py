@@ -4,7 +4,7 @@ from pyrogram import Client , filters
 from helper.txt import kr
 
 
-@Client.on_message(filters.private & filters.command(["upgrade"]))
+@Client.on_message(filters.private & filters.command(["plans"]))
 async def upgrade(bot,message):
 	text = """**Free Plan User**
 	Daily  Upload limit 2GB
