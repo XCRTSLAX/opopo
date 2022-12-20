@@ -36,6 +36,16 @@ else:
 
 #-------------------------------
 
+VIP_BUTTON = InlineKeyboardMarkup( 
+        [[
+        InlineKeyboardButton(' Pᴀʏ 💰 Aᴍᴏᴜɴᴛ ', callback_data='upgrade')
+        ],[
+        InlineKeyboardButton("⛺ Hᴏᴍᴇ", callback_data = "start"),
+        InlineKeyboardButton("🗑 Cʟᴏsᴇ", callback_data = "close")
+        ]]
+    )
+
+#---------------------------------
 @Client.on_message(filters.private & filters.command(["start"]))
 async def start(client,message):
 	old = insert(int(message.chat.id))
@@ -303,6 +313,11 @@ async def cb_handler(client, query: CallbackQuery):
                 ]]
             )
         ) 
+
+    elif data == "help":
+        await query.message.edit_text(
+            text=kr.HELP_TXT,
+            reply_markup=VIP_BUTTON)
 
     elif data == "close":
         await query.message.delete()
