@@ -314,9 +314,24 @@ async def cb_handler(client, query: CallbackQuery):
             )
         ) 
 
-    elif data == "help":
+    elif data == "pay1":
         await query.message.edit_text(
-            text=kr.HELP_TXT,
+            text=kr.VIP_1_TXT,
+            reply_markup=VIP_BUTTON)
+
+    elif data == "pay2":
+        await query.message.edit_text(
+            text=kr.VIP_2_TXT,
+            reply_markup=VIP_BUTTON)
+
+    elif data == "pay3":
+        await query.message.edit_text(
+            text=kr.VIP_3_TXT,
+            reply_markup=VIP_BUTTON)
+
+    elif data == "pay4":
+        await query.message.edit_text(
+            text=kr.VIP_4_TXT,
             reply_markup=VIP_BUTTON)
 
     elif data == "close":
