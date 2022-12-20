@@ -38,7 +38,7 @@ else:
 
 VIP_BUTTON = InlineKeyboardMarkup( 
         [[
-        InlineKeyboardButton(' Pᴀʏ 💰 Aᴍᴏᴜɴᴛ ', callback_data='upgrade')
+        InlineKeyboardButton(' Pᴀʏ 💰 Aᴍᴏᴜɴᴛ ', callback_data='payment')
         ],[
         InlineKeyboardButton("⛺ Hᴏᴍᴇ", callback_data = "start"),
         InlineKeyboardButton("🗑 Cʟᴏsᴇ", callback_data = "close")
@@ -300,7 +300,7 @@ async def cb_handler(client, query: CallbackQuery):
             )
         )
 
-    elif data == "upgrade":
+    elif data == "payment":
         await query.message.edit_text(
 	    text=kr.PAID_TXT,
             reply_markup=InlineKeyboardMarkup( [[ 
