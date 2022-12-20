@@ -20,7 +20,7 @@ API_ID = int(os.environ.get("API_ID", "13384432"))
 
 API_HASH = os.environ.get("API_HASH", "ea9db4503ed7088b788e06dfd818e00e")
 
-STRING = os.environ.get("STRING", "BQDdVvcABsNvLN1U5d5lYsZN5RrHEpOPKjZOcGxqgGB4CqA50wD4Oh30moXekjc13A6zAxz7rGyBOssmJV-wAgLoqFf_JQuSTtlxHIN57NyjoNfP6hr8BFmA4avFe9yN3ixywyBYk69YqXji7Myu_F3bdyy3xzJpp1Hyx5SAI5yBgDecAFZeF1ytYaBpCGZsR_wPXjwQwsIGvLYSWL92LUxiSgsVWInGcjvxloM6EdVl5Z19bvT4uLoTTrP2PSXfDHYdSWyDpeejdisI2ugxqKJVT78wrrXgJY1eFtI7DHlyclf4koJhn36ntY_y6D2ZHbjnHNsNvYystmFVqy6834Jb3DWBpwAAAAE7Z4AQAA")
+STRING = os.environ.get("STRING", "BQDMOvAACtNs-VchfumyK9k5-nCNC07ktlBNprSCibT8v6TlKUld6ZCdmSweiwaB9dYKGUGUDJoVmwk76Di47l9KaeEfBO_6ly7autQqKVoaV0t51FOqxtQQ5sm1zKT4qfvV0zUnw-2nY4yUEzCJJ-2OADSkzQXUDWq_0R1WEDvDOrwUVu6Q92Yliu3yOvUe-yYF9Cd9aiUZO8oOl2Lr5ljVBOQXD1s-acZV_80Ltf20fTkuYym6Bv1zrdvyXuyiBBaQKv_cwHaXcjmAlxvmQaBE-N75q8C_TazXigo0Uflhpqj7MzZoLJZQWw15Tci7RITeErIKtRFC7u6JhnbLDIEZ_uuWYgAAAABZsWSfAA")
 
 app = Client("test", api_id=API_ID, api_hash=API_HASH, session_string=STRING)
 
