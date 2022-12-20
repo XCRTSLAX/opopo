@@ -34,7 +34,7 @@ async def start(client,message):
 	        uploadlimit(message.from_user.id,2147483648)
 	        usertype(message.from_user.id,"Free")
 	if ends == None:
-	    text = f"""🏷 ᴘʟᴀɴ: {user}
+	    text = f"""🏷 ᴘʟᴀɴ: ```{user}```
 
 ⌾ ᴜsᴇʀ ɪᴅ :-  ```{message.from_user.id}```
 ⌾ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ: ```{humanbytes(limit)}```
